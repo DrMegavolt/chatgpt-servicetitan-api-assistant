@@ -21,3 +21,11 @@ Extension was 80% done by ChatGPT4, I'm just asking it questions and copy pastin
 - ChatGPT is trained on old API docs, so it will answer with V1 API instead of V2.
 - You'll be charged for the API calls.
 
+# Screenshots
+![Screenshot](https://raw.githubusercontent.com/DrMegavolt/chatgpt-servicetitan-api-assistant/main/screenshots/overview.png)
+![Screenshot](https://raw.githubusercontent.com/DrMegavolt/chatgpt-servicetitan-api-assistant/main/screenshots/1.png)
+![Screenshot](https://raw.githubusercontent.com/DrMegavolt/chatgpt-servicetitan-api-assistant/main/screenshots/2.png)
+![Screenshot](https://raw.githubusercontent.com/DrMegavolt/chatgpt-servicetitan-api-assistant/main/screenshots/3.png)
+![Screenshot](https://raw.githubusercontent.com/DrMegavolt/chatgpt-servicetitan-api-assistant/main/screenshots/4.png)
+![Screenshot](https://raw.githubusercontent.com/DrMegavolt/chatgpt-servicetitan-api-assistant/main/screenshots/5.png)
+
