@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "ServiceTitan API Chrome Extension",
+  "version": "1.0",
+  "description": "A Chrome extension to call the OpenAI API with the ChatGPT 3.5 ",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://developer.servicetitan.io/docs/welcome/*"],
+      "js": ["content.js", "prism.js"],
+      "css": ["prism.css", "content.css"]
+    }
+  ],
+  "permissions": ["activeTab", "storage"],
+  "options_page": "options.html"
+}

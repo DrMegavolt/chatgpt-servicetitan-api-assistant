@@ -1,0 +1,80 @@
+#chat-container {
+  width: 100%;
+  max-height: 800px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.chat-message {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.user-message {
+  background-color: #a0d9ff;
+  border: 1px solid #6fb3e6;
+}
+
+.gpt-message {
+  background-color: #e0e0e0;
+  border: 1px solid #c0c0c0;
+}
+
+.error-message {
+  background-color: #ffd9d9;
+  border: 1px solid #e67b7b;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.input-group {
+  flex-basis: 90%;
+  /* display: flex;
+  gap: 5px; */
+}
+
+.button-group {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  /* margin-left: auto; */
+}
+
+.text-input {
+  width: 100%;
+  /* width: 90%; */
+  height: 80px;
+}
+
+.submit-button {
+  color: white;
+  background-color: #0078d4;
+  border: none;
+}
+
+.clear-button {
+  color: white;
+  background-color: rgba(0, 50, 86, 1);
+  border: none;
+}
+.spinner {
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #333;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
