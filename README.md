@@ -1,7 +1,6 @@
 # ChatGPT ServiceTitan API Assistant
 
 This is a simple chrome extension to demo ChatGPT assistant for not so documented ServiceTitan API.
-Extension was 80% done by ChatGPT4, I'm just asking it questions and copy pasting the answers :) 
 
 ## Installation
 
